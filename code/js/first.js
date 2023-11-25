@@ -1,3 +1,6 @@
+//GRAY COURES SEMMES REALLY BAD I DID SEE THAT ITS AN OLD COURES(HE WASNT THAT GOOD AT TEACHING SO I DID GO BACK TO FREECODECAMP GUY AND HES GOOD TO BE HONEST)
+
+
 //! str 1st lesson
 const variable="i need to chill"
 
@@ -164,3 +167,91 @@ if (me === computer){
     }
 }
 console.log(the_hype_guy)
+switch (Math.floor(Math.random()*4+1)) {
+    case 1:
+        console.log("there is a football today match sir")
+        break;
+    case 2:
+        console.log("there is 2  football match today sir")
+        break;
+    case 3:
+        console.log("there is 3 football match today  sir")
+        break;
+
+    default:
+        console.log(" im sorry we didn't understand sir")
+}
+let me ="paper"
+let computer="rock"
+
+switch (me) {
+    case  computer :
+        console.log("ta3adol");
+
+        break;
+    case "rock":
+        if (computer === "paper") {
+        console.log("pc win");
+        } else {
+            console.log("you win")
+        }
+        break;      
+    case "paper":
+        if (computer =="sizer"){
+        console.log("pc win")
+        }        
+        else {
+            console.log("you win")}
+        break;
+    case "sizer":
+        if (computer === "rock"){
+        console.log("pc win")
+        }        
+        else {
+            console.log("you win")}
+        break;
+}
+let brahimIsAStudent=false
+let brahim=true;
+let replay = brahim ?"so you are moroccan  right  !!!!! " : "i know you are a moroccan!!" 
+let school =  brahimIsAStudent ? "so you are a student":"you're nit a student"
+console.log(replay , school)
+let control = 15
+let grade = control>=18 ?"let him cook!" :
+ control>=16 ? "nice grade buddy" :
+  control>=14?"nice boy" :
+  control>=12 ?"bien":
+    control>=10 ? "you good":
+    "go back you are bad"
+console.log(grade)
+let pc="sizer";
+let me="paper";
+let results = pc===me ? "ta3adol"
+:me="rock" && pc ==="sizer" ? "lose"
+:me="rock" && pc ==="paper" ? "win"
+:me="paper" && pc ==="sizer" ? "lose"
+:me="paper" && pc ==="rock" ? "win"
+:me="sizer" && pc ==="paper" ? "win"
+:me="sizer" && pc ==="rock" ? "lose":"please type rock paper or sizer"
+console.log(results)
+let brahiam =confirm("ok===true\n cancel === false");
+console.log(brahiam)
+let name = prompt("pleas inter your name")
+console.log(name??);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
